@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CVApp</string>
+
+    <string name="prompt_kernel">Escolha um Kernel:</string>
+
+    <string-array name="kernels">
+        <item>bottom sobel</item>
+        <item>left sobel</item>
+        <item>right sobel</item>
+        <item>top sobel</item>
+        <item>blur</item>
+        <item>identity</item>
+        <item>emboss</item>
+        <item>outline</item>
+        <item>sharpen</item>
+    </string-array>
+</resources>

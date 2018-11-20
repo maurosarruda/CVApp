@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imV_galeria"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/bt_imCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="Câmera"
+            android:textSize="11sp"/>
+
+        <Button
+            android:id="@+id/bt_imGaleria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="Galeria"
+            android:textSize="11sp"/>
+
+        <Button
+            android:id="@+id/bt_imExemplo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="Exemplo"
+            android:textSize="11sp"/>
+
+        <ImageButton
+            android:id="@+id/ibt_salvarImagemMorfologia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@android:color/background_light"
+            android:gravity="center"
+            android:src="@drawable/salvar_imagem"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/bt_Erode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="7"
+            android:singleLine="true"
+            android:text="Erosão"
+            android:textSize="11sp"/>
+
+        <Button
+            android:id="@+id/bt_Dilate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="9"
+            android:singleLine="true"
+            android:text="Dilatação"
+            android:textSize="11sp"/>
+
+        <Button
+            android:id="@+id/bt_Open"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:singleLine="true"
+            android:text="Abertura"
+            android:textSize="11sp"/>
+
+        <Button
+            android:id="@+id/bt_Close"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="10"
+            android:singleLine="true"
+            android:text="Fechamento"
+            android:textSize="11sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
